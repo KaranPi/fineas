@@ -6,6 +6,7 @@ channels:
   - defaults
 dependencies:
   - python=3.11
+  - numpy
   - pytorch
   - torchvision
   - torchaudio
@@ -21,3 +22,4 @@ dependencies:
     - jupyter
     - ipykernel
     - yfinance
+    - pyyaml
