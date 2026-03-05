@@ -1,0 +1,9 @@
+{
+  "run_id": "run=20260304T102000Z",
+  "universe": "demo_small",
+  "interval": "1d",
+  "start": "2022-01-01",
+  "end": "2024-01-01",
+  "features_enabled": ["returns", "movement"],
+  "rag": { "window_size": 5, "top_k": 5 }
+}

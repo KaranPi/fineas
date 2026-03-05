@@ -1,0 +1,6 @@
+baskets:
+  demo_small:
+    - AAPL
+    - MSFT
+    - NVDA
+    - NEWGEN.NS
