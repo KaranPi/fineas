@@ -1,3 +1,55 @@
 enabled:
   - returns
   - movement
+
+phase_3f:
+  taxonomy:
+    feature_families:
+      - price_raw
+      - price_derived
+      - technical
+      - alpha_formulaic
+      - cross_sectional
+      - volatility_realized
+      - volatility_implied
+      - microstructure_l1
+      - microstructure_l2
+      - orderflow
+      - liquidity
+      - term_structure
+      - basis_funding
+      - options_surface
+      - cross_asset_macro
+      - event_context
+      - target_labels
+      - meta_diagnostics
+
+    family_status:
+      price_raw: active_now
+      price_derived: active_now
+      technical: active_now
+      alpha_formulaic: active_now
+      cross_sectional: reserved_next
+      volatility_realized: reserved_next
+      volatility_implied: reserved_future
+      microstructure_l1: reserved_future
+      microstructure_l2: reserved_future
+      orderflow: reserved_future
+      liquidity: reserved_future
+      term_structure: reserved_future
+      basis_funding: reserved_future
+      options_surface: reserved_future
+      cross_asset_macro: reserved_next
+      event_context: reserved_future
+      target_labels: active_now
+      meta_diagnostics: active_now
+
+    capability_flags:
+      - axis_time_series
+      - axis_cross_sectional
+      - requires_group_labels
+      - requires_intraday
+      - requires_level2
+      - requires_options
+      - requires_futures
+      - requires_external_context
