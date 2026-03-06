@@ -53,3 +53,60 @@ phase_3f:
       - requires_options
       - requires_futures
       - requires_external_context
+
+  run_capabilities:
+    profile_name: fineas_daily_yfinance_v1
+    dataset_name: yfinance_norm_daily
+    interval: 1d
+    universe_size: 4
+
+    capability_flags:
+      axis_time_series: true
+      axis_cross_sectional: true
+      requires_group_labels: false
+      requires_intraday: false
+      requires_level2: false
+      requires_options: false
+      requires_futures: false
+      requires_external_context: false
+
+    supported_input_levels:
+      - daily_bar
+      - cross_section
+
+    group_label_fields: []
+
+    notes: >
+      Cross-sectional operators are executable in the current run,
+      but the universe is small and mainly suitable for correctness checks.
+
+
+  operator_contract:
+    window_rule_default: floor_if_float
+    rank_tie_policy: ordinal_normalized
+    cross_section_rank_range: "[0, 1]"
+    ts_rank_range: "[0, 1]"
+    delay_requires_sorted_time: true
+    rolling_windows_include_current_bar: true
+
+  canonical_inputs:
+    current_run_defaults:
+      source_dataset: norm_ohlcv_daily
+      bar_level: daily_bar
+
+    explicitly_unsupported_current_run:
+      - vwap
+
+    reserved_group_labels:
+      - sector
+      - industry
+      - subindustry
+
+    reserved_future_microstructure:
+      - bid
+      - ask
+      - mid
+
+    reserved_future_derivatives:
+      - funding_rate
+      - iv_atm
