@@ -1,6 +1,6 @@
 provider: yfinance
 interval: 1d
-start: "2022-01-01"
-end:   "2024-01-01"
+start: "2018-01-01"
+end: "2026-03-10"
 auto_adjust: false
 actions: true
