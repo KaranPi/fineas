@@ -11,39 +11,21 @@ baskets:
     - V
     - WMT
     - AMD
-    - PLTR
+    - CRM
     - UBER
     - CRWD
     - SNOW
     - SOFI
-    - DUOL
+    - BRK-A
     - CELH
-    - RKLB
-    - HIMS
-
-    - RELIANCE.NS
-    - TCS.NS
-    - HDFCBANK.NS
-    - ICICIBANK.NS
-    - INFY.NS
-    - SBIN.NS
-    - LT.NS
-    - BHARTIARTL.NS
-    - SUNPHARMA.NS
-    - MARUTI.NS
-    - TITAN.NS
-    - DMART.NS
-    - TRENT.NS
-    - DIVISLAB.NS
-    - POLYCAB.NS
-    - KPITTECH.NS
-    - BSE.NS
-    - CDSL.NS
-    - PAYTM.NS
-    - PERSISTENT.NS
+    - ^DJI
+    - ^IXIC
 
     - BTC-USD
     - ETH-USD
     - SOL-USD
     - BNB-USD
     - XRP-USD
+    - ADA-USD
+    - DOGE-USD
+    - LINK-USD
