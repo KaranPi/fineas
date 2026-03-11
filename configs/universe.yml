@@ -1,31 +1,46 @@
-baskets:
-  demo_small:
+ baskets:
+  broad_daily_multiasset_v1:
+     - AAPL
+     - MSFT
+     - NVDA
+     - AMZN
+     - GOOGL
+     - META
+     - BRK-B
+     - JPM
+     - V
+     - WMT
+     - AMD
+     - CRM
+     - UBER
+     - CRWD
+     - SNOW
+     - SOFI
+     - BRK-A
+     - CELH
+     - ^DJI
+     - ^IXIC
+     - BTC-USD
+     - ETH-USD
+     - SOL-USD
+     - BNB-USD
+     - XRP-USD
+     - ADA-USD
+     - DOGE-USD
+     - LINK-USD
+
+  alpha_smoke_us_crypto_8:
+    - AAPL
+    - AMD
+    - BTC-USD
+    - MSFT
+    - NVDA
+    - SOFI
+    - UBER
+    - ^IXIC
+
+  legacy_phase3_regression_4:
     - AAPL
     - MSFT
     - NVDA
-    - AMZN
-    - GOOGL
-    - META
-    - BRK-B
-    - JPM
-    - V
-    - WMT
-    - AMD
-    - CRM
-    - UBER
-    - CRWD
-    - SNOW
-    - SOFI
-    - BRK-A
-    - CELH
-    - ^DJI
-    - ^IXIC
-
-    - BTC-USD
-    - ETH-USD
-    - SOL-USD
-    - BNB-USD
-    - XRP-USD
-    - ADA-USD
-    - DOGE-USD
-    - LINK-USD
+    - NEWGEN.NS
