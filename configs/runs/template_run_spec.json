@@ -1,6 +1,6 @@
 {
-  "run_id": "run=20260309T000000Z",
-  "universe": "demo_small",
+  "run_id": "run=20260311T000000Z",
+  "universe": "broad_daily_multiasset_v1",
   "interval": "1d",
   "start": "2018-01-01",
   "end": "2026-03-10",
