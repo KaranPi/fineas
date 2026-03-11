@@ -1,0 +1,9 @@
+{
+  "run_id": "run=20260311T000000Z",
+  "universe": "legacy_phase3_regression_4",
+  "interval": "1d",
+  "start": "2022-01-01",
+  "end": "2024-01-01",
+  "features_enabled": ["returns", "movement"],
+  "rag": { "window_size": 5, "top_k": 5 }
+}
