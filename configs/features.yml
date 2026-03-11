@@ -55,10 +55,10 @@ phase_3f:
       - requires_external_context
 
   run_capabilities:
-    profile_name: fineas_daily_yfinance_v1
-    dataset_name: yfinance_norm_daily
+    profile_name: fineas_daily_yfinance_multiasset_v2
+    dataset_name: yfinance_norm_daily_multiasset
     interval: 1d
-    universe_size: 4
+    universe_size: 28
 
     capability_flags:
       axis_time_series: true
@@ -77,9 +77,9 @@ phase_3f:
     group_label_fields: []
 
     notes: >
-      Cross-sectional operators are executable in the current run,
-      but the universe is small and mainly suitable for correctness checks.
-
+      Cross-sectional operators are executable in the broad daily run.
+      Mixed U.S. equity, index, and crypto calendars require same-calendar
+      subsets or a latest-timestamp-with-min-symbols rule for alpha validation.
 
   operator_contract:
     window_rule_default: floor_if_float
